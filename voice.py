@@ -19,7 +19,7 @@ def call(number):
 
 def dial():
 	# User input
-	user_input = input("+1 ").replace("-", "")
+	user_input = input("+1 ")
 	# Checks that the user input is a valid length
 	if len(user_input) != 10:
 		print("Invalid.")
