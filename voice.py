@@ -1,15 +1,15 @@
 #!/user/bin/python3
 
 def call(number):
-	## CALL
+	### Call
 	# print("Calling...")
 	# serialport.write("AT\r")
 	# response = serialport.readlines(None)
 	# serialport.write("ATD " + number + ';\r')
 	# response = serialport.readlines(None)
 	# print(response)
-	## HANG-UP
-	# print("Hanging up...")
+	### End
+	# print("Ending...")
 	# serialport.write("AT\r")
 	# response = serialport.readlines(None)
 	# serialport.write("ATH\r")
