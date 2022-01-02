@@ -25,7 +25,7 @@ def dial():
 		print("Invalid.")
 		dial()
 	else:
-		# Formats number
+		# Appends U.S. area code
 		number = "1" + user_input
 		# Call "call"
 		call(number)
