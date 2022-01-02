@@ -1,6 +1,9 @@
 #!/user/bin/python3
 
 def call(number):
+
+	### Code will vary with different GSM libraries
+
 	### Call
 	# print("Calling...")
 	# serialport.write("AT\r")
@@ -19,7 +22,7 @@ def call(number):
 
 def dial():
 	# User input
-	user_input = input("+1 ")
+	user_input = input("+1 ").replace("-", "")
 	# Checks that the user input is a valid length
 	if len(user_input) != 10:
 		print("Invalid.")
