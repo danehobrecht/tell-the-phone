@@ -3,16 +3,17 @@
 ### Peforms cellular call of the passed parameter "number".
 def call(number):
 
-	### Code will vary according to the calling library.
+	### Function code will vary based on the calling library.
 
-	### Call
+	### Initiates phone call
 	# print("Calling...")
 	# serialport.write("AT\r")
 	# response = serialport.readlines(None)
 	# serialport.write("ATD " + number + ';\r')
 	# response = serialport.readlines(None)
 	# print(response)
-	### End
+
+	### Ends phone call
 	# print("Ending...")
 	# serialport.write("AT\r")
 	# response = serialport.readlines(None)
@@ -22,7 +23,7 @@ def call(number):
 
 	print(number)
 
-### Formats and dials input for U.S. tellecommunication standards.
+### Formats and dials input according to U.S. tellecommunication standards.
 def dial():
 	# Takes/cleans user input
 	user_input = input("+1 ").replace("-", "")
