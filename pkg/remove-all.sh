@@ -1,11 +1,3 @@
-adb shell pm uninstall -k --user 0 com.evenwell.fnotes
-adb shell pm uninstall -k --user 0 com.evenwell.OTAUpdate
-adb shell pm uninstall -k --user 0 com.evenwell.tmobile.vvm
-adb shell pm uninstall -k --user 0 com.nuance.voiceservice
-adb shell pm uninstall -k --user 0 com.nuance.voiceclient
-adb shell pm uninstall -k --user 0 com.nuance.accessibility
-adb shell pm uninstall -k --user 0 com.nuance.talkback
-adb shell pm uninstall -k --user 0 com.qualcomm.location.XT.setup
 adb shell pm uninstall -k --user 0 com.android.documentsui
 adb shell pm uninstall -k --user 0 com.android.browser
 adb shell pm uninstall -k --user 0 com.android.soundrecorder
@@ -28,6 +20,27 @@ adb shell pm uninstall -k --user 0 com.android.internal.display.cutout.emulation
 adb shell pm uninstall -k --user 0 com.android.stk
 adb shell pm uninstall -k --user 0 com.android.providers.calendar
 adb shell pm uninstall -k --user 0 com.android.providers.downloads.ui
+
+adb shell pm uninstall -k --user 0 com.evenwell.fnotes
+adb shell pm uninstall -k --user 0 com.evenwell.OTAUpdate
+adb shell pm uninstall -k --user 0 com.evenwell.tmobile.vvm
+
+adb shell pm uninstall -k --user 0 com.nuance.voiceservice
+adb shell pm uninstall -k --user 0 com.nuance.voiceclient
+adb shell pm uninstall -k --user 0 com.nuance.accessibility
+adb shell pm uninstall -k --user 0 com.nuance.talkback
+
+adb shell pm uninstall -k --user 0 com.qti.confuridialer
+adb shell pm uninstall -k --user 0 com.qti.dpmserviceapp
+adb shell pm uninstall -k --user 0 com.qti.qualcomm.datastatusnotification
+adb shell pm uninstall -k --user 0 com.qti.service.colorservice
+adb shell pm uninstall -k --user 0 com.qti.snapdragon.qdcm_ff
+adb shell pm uninstall -k --user 0 com.qualcomm.atfwd
+adb shell pm uninstall -k --user 0 com.qualcomm.embms
+adb shell pm uninstall -k --user 0 com.qualcomm.location
+adb shell pm uninstall -k --user 0 com.qualcomm.qti.qmmi
+adb shell pm uninstall -k --user 0 com.qualcomm.location.XT.setup
+
 adb shell pm uninstall -k --user 0 com.sonim.kiosk
 adb shell pm uninstall -k --user 0 com.sonim.scout
 adb shell pm uninstall -k --user 0 com.sonim.logcollector
@@ -54,19 +67,13 @@ adb shell pm uninstall -k --user 0 com.sonimtech.setupwizard.ten
 adb shell pm uninstall -k --user 0 com.sonimtech.sonimupdater
 adb shell pm uninstall -k --user 0 com.splashtop.streamer.platform.sonim.b
 adb shell pm uninstall -k --user 0 com.splashtop.sos.sonim
-adb shell pm uninstall -k --user 0 com.caf.fmradio
-adb shell pm uninstall -k --user 0 com.qti.confuridialer
-adb shell pm uninstall -k --user 0 com.qti.dpmserviceapp
-adb shell pm uninstall -k --user 0 com.qti.qualcomm.datastatusnotification
-adb shell pm uninstall -k --user 0 com.qti.service.colorservice
-adb shell pm uninstall -k --user 0 com.qti.snapdragon.qdcm_ff
-adb shell pm uninstall -k --user 0 com.qualcomm.atfwd
-adb shell pm uninstall -k --user 0 com.qualcomm.embms
-adb shell pm uninstall -k --user 0 com.qualcomm.location
-adb shell pm uninstall -k --user 0 com.qualcomm.qti.qmmi
+
+
 adb shell pm uninstall -k --user 0 com.sprint.ms.cdm
 adb shell pm uninstall -k --user 0 com.sprint.w.installer
 adb shell pm uninstall -k --user 0 com.sprint.sdcplus
+
+adb shell pm uninstall -k --user 0 com.caf.fmradio
 adb shell pm uninstall -k --user 0 com.fih.savetime
 adb shell pm uninstall -k --user 0 com.borqs.easervice
 adb shell pm uninstall -k --user 0 com.skyhook.blp
