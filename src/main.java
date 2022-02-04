@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void rejectMessage(String number) {
-		// Prevent SMS data write
+	public static void rejectWrite(String number) {
+		// Reject SMS
 		System.out.println("Rejected - " + number);
 	}
 
-	public static void acceptMessage(String number) {
-		// Accept SMS data write
-		System.out.println("Accepted - " + number);
+	public static void permitWrite(String number) {
+		// Permit SMS
+		System.out.println("Permitted - " + number);
 	}
 
 	public static void main(String[] args) {
@@ -18,10 +18,10 @@ public class Main {
 		System.out.println("Enter a number: ");
 		String number = numberInput.nextLine();
 		// Validate number
-		if (number.length() != 5 || number.length() != 6) {
-			rejectMessage(number);
+		if (number.length() < 5 || number.length() > 6) {
+			rejectWrite(number);
 		} else {
-			acceptMessage(number);
+			permitWrite(number);
 		}
 	}
 }
