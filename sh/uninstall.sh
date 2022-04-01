@@ -2,7 +2,7 @@
 adb shell pm uninstall --user 0 com.android.documentsui
 adb shell pm uninstall --user 0 com.android.browser
 adb shell pm uninstall --user 0 com.android.soundrecorder
-adb shell pm uninstall --user 0 com.android.mms
+### adb shell pm uninstall --user 0 com.android.mms
 adb shell pm uninstall --user 0 com.android.calendar
 adb shell pm uninstall --user 0 com.android.printspooler
 adb shell pm uninstall --user 0 com.android.synccontact
